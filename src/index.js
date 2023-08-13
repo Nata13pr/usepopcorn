@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import StarRating from './StarRating';
-import App1 from './App1';
+// import App1 from './App1';
 import './index.css';
 // import App from './App';
+import App2 from './App2';
 
 function Test(){
 const [movieRating,setMovieRating] = useState(0);
@@ -25,7 +26,8 @@ root.render(
     <StarRating size={24} color='violet'/>
     <Test/> */}
     {/* <App /> */}
-    <App1/>
+    {/* <App1/> */}
+    <App2 />
   </React.StrictMode>
 );
 
